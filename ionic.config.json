@@ -1,0 +1,7 @@
+{
+  "name": "ionic7fb-auth",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

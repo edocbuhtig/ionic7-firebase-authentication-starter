@@ -1,0 +1,29 @@
+
+
+<ion-content class="ion-padding" [fullscreen]="true">
+<div>
+  <ion-title>Welcome Back</ion-title>
+  <p>Log in to access your account</p>
+</div>
+<form>
+<div class="ion-padding">
+  <ion-item>
+    <ion-input class="input" type="text"placeholder="Username"></ion-input>
+    <ion-icon name="person-outline"></ion-icon>
+  </ion-item>
+  <ion-item>
+    <ion-input class="input"placeholder="Password" type="password"></ion-input>
+    <ion-icon name="lock-closed-outline"></ion-icon>
+  </ion-item>
+  <div>
+  <div>
+    <ion-button [routerLink]="['/login']"expand="block" class="primary">Login</ion-button>
+  </div>
+    <a [routerLink]="['/reset-password']">Forgot my Password</a>
+  </div>
+  <div>
+   Don't have a account?<p> <a [routerLink]="['/signup']">Create new account</a>
+  </div>
+</div>
+</form>
+</ion-content>

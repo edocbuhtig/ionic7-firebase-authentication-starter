@@ -1,0 +1,32 @@
+
+
+<ion-content class="ion-padding" [fullscreen]="true">
+  <div>
+    <ion-title>Create New Account</ion-title>
+    <p>Enter all details to create a new account</p>
+  </div>
+  <form>
+  <div class="ion-padding">
+    <ion-item>
+      <ion-input placeholder="Name"></ion-input>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-item>
+   
+    <ion-item>
+      <ion-input placeholder="Email" type="email"></ion-input>
+      <ion-icon name="mail-outline"></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="Password" type="password"></ion-input>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+    </ion-item>
+    <div>
+
+    </div>
+    <div>
+     Already, have an account?<p> <a [routerLink]="['/login']">Login here</a>
+    </div>
+  </div>
+  </form>
+  </ion-content>
+  
