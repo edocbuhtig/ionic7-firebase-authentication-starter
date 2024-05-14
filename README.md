@@ -16,3 +16,5 @@ Add, missing Angular firebase package  using
 
  [Watch all my  Tutorial Videos ](https://www.youtube.com/@Full_Stack_Dev_Bharat) 
 
+ [How to Import/ Integrate Firebase](https://github.com/angular/angularfire)
+
