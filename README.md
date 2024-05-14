@@ -1,5 +1,5 @@
 
-# ionic 7 Firebase Authentication page templates, starter app
+# ionic 7 Firebase Authentication UI Linked page templates, starter app
 after git clone run npm i to install node modules npm packages
 then run, npm audit to check for npm packages needs security updates,
 or run npm outdated - this command will display a list of outdated npm packages
@@ -12,5 +12,7 @@ Add, missing Angular firebase package  using
 
  PS: This app is only a working UI routing linked template to get you started
 
- [Watch more Tutorial Videos ](https://www.youtube.com/@Full_Stack_Dev_Bharat) 
+ [How to Ugrade this Ionic Project to version 8](https://youtu.be/vAxrXo8MwqQ?si=iCLSk5TcKGzME_Qn) 
+
+ [Watch all my  Tutorial Videos ](https://www.youtube.com/@Full_Stack_Dev_Bharat) 
 
